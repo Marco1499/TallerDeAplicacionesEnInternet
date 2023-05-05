@@ -1,0 +1,23 @@
+TALLER DE APLICACIONES EN INTERNET
+-------------------------------------
+
+MARCOS FLORES ALCOCER:
+---------------------
+1: METODOLOGIAS TRADICIONALES
+
+metodologías tradicionales en ingeniería de software que se han utilizado a lo largo del tiempo y que todavía se utilizan en la actualidad.
+Algunas de las más conocidas son:
+
+Modelo en cascada: Este modelo es lineal y secuencial, lo que significa que las etapas del proceso de desarrollo de software se realizan en orden secuencial
+ 	           y no se puede volver a una etapa anterior. Es un modelo muy estructurado que se divide en etapas bien definidas como análisis de requisitos,
+		   diseño, implementación, pruebas y mantenimiento.
+
+Modelo en V: Este modelo también es lineal y secuencial, pero se enfoca más en las pruebas y la validación de los requisitos.
+	     Las etapas de diseño y codificación se entrelazan con la etapa de pruebas, y cada etapa de desarrollo tiene una etapa de prueba correspondiente.
+
+Modelo de prototipado: Este modelo es iterativo y se enfoca en la creación de prototipos para obtener retroalimentación de los usuarios.
+                       Se utiliza para desarrollar sistemas que tienen requisitos poco claros o cambiantes, y se centra en el proceso de
+		       refinamiento de los prototipos hasta que se llegue a un diseño aceptable.
+
+Modelo en espiral: Este modelo es iterativo y se enfoca en la identificación temprana y la resolución de riesgos y problemas.
+		   Cada iteración del modelo implica un ciclo completo de planificación, análisis, diseño, construcción y evaluación.
