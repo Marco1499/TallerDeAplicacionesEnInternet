@@ -21,3 +21,22 @@ Modelo de prototipado: Este modelo es iterativo y se enfoca en la creación de p
 
 Modelo en espiral: Este modelo es iterativo y se enfoca en la identificación temprana y la resolución de riesgos y problemas.
 		   Cada iteración del modelo implica un ciclo completo de planificación, análisis, diseño, construcción y evaluación.
+
+
+JUAN RICHARD POMA GUTIERREZ:
+---------------------
+2: METODOLOGIAS AGILES
+
+Las metodologías ágiles son un enfoque de gestión de proyectos que se basa en principios iterativos e incrementales para el desarrollo de software y otros productos. 
+A diferencia de los enfoques de gestión de proyectos tradicionales que tienden a ser rígidos y centrados en el plan, las metodologías ágiles fomentan la adaptabilidad
+y la flexibilidad para poder responder rápidamente a los cambios en los requisitos del proyecto.
+
+- Scrum: es una metodología ágil centrada en el equipo que se enfoca en la entrega temprana y continua de productos valiosos. Scrum se basa en sprints (iteraciones) de corta duración, generalmente de 2 a 4 semanas, y en roles bien definidos, como el Scrum Master y el Product Owner.
+
+- Kanban: es un enfoque de gestión de proyectos visual que se centra en limitar el trabajo en progreso y en la entrega continua de productos valiosos. Kanban se basa en un tablero visual que muestra el flujo de trabajo y los límites de trabajo en progreso, lo que ayuda a mejorar la eficiencia y la calidad.
+
+- Extreme Programming (XP): es una metodología ágil centrada en la calidad del software. XP se basa en prácticas como la programación en parejas, la integración continua y las pruebas automatizadas para garantizar la calidad del software y la entrega temprana y continua de valor al cliente.
+
+- Lean: es una metodología ágil centrada en la eliminación de desperdicios y en la mejora continua de procesos. Lean se basa en principios como la identificación de valor, el flujo continuo, la entrega rápida y la mejora continua.
+
+- Crystal: es una metodología ágil que se centra en adaptarse al tamaño y la complejidad del proyecto. Crystal se basa en principios como la comunicación, la reflexión y la mejora continua para garantizar la entrega temprana y continua de valor al cliente.
