@@ -1,5 +1,10 @@
 <p>movies works! 1</p>
-<ul *ngFor="let movie of OMovies">
-    <!--Agregar aqui Imagen, titulo y descripcion de Pelicula-->
-    <li>{{movie.title}}</li>
-</ul>
+
+
+<div *ngFor="let movie of OMovies">
+   <h3>{{movie.title}}</h3>
+  
+    <img class="image" src={{OImages.base_url}}{{OImages.backdrop_sizes[0]}}{{movie.backdrop_path}}>
+    <p>{{movie.overview}}</p>
+    
+</div>

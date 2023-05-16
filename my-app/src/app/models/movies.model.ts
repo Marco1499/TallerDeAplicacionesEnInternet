@@ -1,7 +1,7 @@
 export class MoviePlayingNow {
    
      page: number=0;
-     results: MovieRes []=[];
+     results: Array<MovieRes>=new Array<MovieRes>;
      
     total_pages: number=0;
     total_results: number=0;
@@ -10,8 +10,8 @@ export class MoviePlayingNow {
     export class MovieRes
     {
       adult:boolean=false;
-      backdrop_patch:string='';
-      genere_ids: GenereID[]=[];
+      backdrop_path:string='';
+      genere_ids: number[]=[];
       id:number=0;
       original_language:string='';
       original_title:string='';
@@ -22,8 +22,5 @@ export class MoviePlayingNow {
     title:string='';
    
     }
-    export class GenereID
-    {
-      id:number=0;
-    }
+   
  
