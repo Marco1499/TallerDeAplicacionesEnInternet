@@ -1,3 +1,5 @@
+
+<div class="container mt-4 ">
 <div class="row">
     <div class="col-md-12">
         <h2 class="text-primary text-center" >Lista de Peliculas</h2>
@@ -7,17 +9,17 @@
 <div class="row">
     <div class="col-md-12">
         <div *ngFor="let movie of OMovies" class="m-2 p-4">
-            <div class="row">
+            <div class="row m-1">
                 <div class="col-md-12">
-                    <a href="#"><h3>{{movie.title}}</h3></a>
+                    <a href="#" class="text-warning"><h5 >{{movie.title}}</h5></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <img class="image" src={{OImages.base_url}}{{OImages.backdrop_sizes[0]}}{{movie.backdrop_path}}>
+                    <img class="img-fluid rounded-circle" src={{OImages.base_url}}{{OImages.backdrop_sizes[0]}}{{movie.backdrop_path}}>
             
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 text-light">
                     <p style="text-align: justify;">{{movie.overview}}</p>
                 </div>
                 <div class="col-md-4"></div>
@@ -28,5 +30,5 @@
          </div>
     </div>
 </div>
-
+</div>
 
