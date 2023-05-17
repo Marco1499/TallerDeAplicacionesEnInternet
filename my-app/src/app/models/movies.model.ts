@@ -22,5 +22,6 @@ export class MoviePlayingNow {
     title:string='';
    
     }
+
    
  
