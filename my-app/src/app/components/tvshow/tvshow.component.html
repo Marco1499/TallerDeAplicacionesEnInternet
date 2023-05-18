@@ -1,3 +1,24 @@
-<div *ngFor="let misTv of respuestv ">
-{{misTv.original_name}}
+<div class="container mt-4 ">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-primary text-center" >Lista de Tv En vivo</h2>
+        </div>
+    </div>
+    
 </div>
+
+
+<div class="container">
+    <div class="row">
+    <div *ngFor="let misTv of respuestv " class="col-md-3"> <br>
+        <div class="card">
+          <img src="imagen1.jpg" class="card-img-top" alt="Imagen 1">
+          <div class="card-body">
+            <h5 class="card-title">{{misTv.original_name}}</h5>
+            <p class="card-text">{{misTv.original_language}}</p>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </div>
