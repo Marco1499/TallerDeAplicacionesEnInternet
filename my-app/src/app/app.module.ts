@@ -8,6 +8,7 @@ import { MovieService } from './services/movie.service';
 import { TopNavBarComponent } from './components/top-nav-bar/top-nav-bar.component';
 import { TvshowComponent } from './components/tvshow/tvshow.component';
 import { HomeComponent } from './components/home/home.component';
+import { DetalleTvShowComponent } from './components/detalle-tv-show/detalle-tv-show.component';
 
 
 
@@ -17,7 +18,8 @@ import { HomeComponent } from './components/home/home.component';
     MoviesComponent,
     TopNavBarComponent,
     TvshowComponent,
-    HomeComponent
+    HomeComponent,
+    DetalleTvShowComponent
   ],
   imports: [
     BrowserModule,

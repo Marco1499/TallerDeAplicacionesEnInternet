@@ -4,13 +4,15 @@ import {MoviePlayingNow} from '../models/movies.model'
 import { tvshowlist } from '../models/tvshow.model';
 import { Configuration, Images } from '../models/configuration.model';
 import {Observable}from 'rxjs'
+import { Detalletvshowlist } from '../models/DetalleTvShow.model';
 @Injectable({
   providedIn: 'root'
 })
 export class MovieService {
 private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 private API_CONFIGURATION="https://api.themoviedb.org/3/configuration?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
-private API_TV_SHOW="https://api.themoviedb.org/3/tv/airing_today?api_key=b0cb6f9eba58c87e0da7c25e75537fe7"
+private API_TV_SHOW="https://api.themoviedb.org/3/tv/airing_today?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
+private API_DETALLE_TV_SHOW="https://api.themoviedb.org/3/tv/202250?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 /*private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";*/
   constructor(private http:HttpClient) { }
@@ -27,6 +29,10 @@ private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api
   getTvshow():Observable<tvshowlist>
   {
     return this.http.get<tvshowlist>(this.API_TV_SHOW);
+  }
+  getDetalleTvShow():Observable<Detalletvshowlist>
+  {
+    return this.http.get<Detalletvshowlist>(this.API_DETALLE_TV_SHOW);
   }
 }
 
