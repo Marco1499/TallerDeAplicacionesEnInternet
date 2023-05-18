@@ -1,20 +1,18 @@
 export class Detalletvshowlist
     {
-        page: number=0;
-        results: Array<DetalleTvshowRes>=new Array<DetalleTvshowRes>;
-        total_pages: number=0;
-        total_results: number=0;
-    }
-
-export class DetalleTvshowRes
-    {
-
-        original_name:string='';
-        original_language: string='';
         backdrop_path:string='';
-        poster_path:string='';
-        id:number=0;
+        first_air_date:string='';
+        episode_run_time:number[]=[];
+        in_production:boolean=false;
+        name:string='';
+        number_of_episodes:number=0;
+        number_of_seasons: number=0;
+        original_language: string='';
+        original_name:string='';
         overview:string='';
         popularity:number=0;
-        number_of_episodes:number=0;
+        poster_path:string='';
+        id:number=0
+
     }
+

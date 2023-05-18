@@ -12,7 +12,8 @@ export class MovieService {
 private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 private API_CONFIGURATION="https://api.themoviedb.org/3/configuration?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 private API_TV_SHOW="https://api.themoviedb.org/3/tv/airing_today?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
-private API_DETALLE_TV_SHOW="https://api.themoviedb.org/3/tv/202250?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
+private API_DETALLE_TV_SHOW="https://api.themoviedb.org/3/tv/";
+private API_KEY="?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 /*private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";
 private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api_key=b0cb6f9eba58c87e0da7c25e75537fe7";*/
   constructor(private http:HttpClient) { }
@@ -30,9 +31,9 @@ private API_MOVIE_NOWPLAYING="https://api.themoviedb.org/3/movie/now_playing?api
   {
     return this.http.get<tvshowlist>(this.API_TV_SHOW);
   }
-  getDetalleTvShow():Observable<Detalletvshowlist>
+  getDetalleTvShow(id:string):Observable<Detalletvshowlist>
   {
-    return this.http.get<Detalletvshowlist>(this.API_DETALLE_TV_SHOW);
+    return this.http.get<Detalletvshowlist>(this.API_DETALLE_TV_SHOW+id+this.API_KEY);
   }
 }
 

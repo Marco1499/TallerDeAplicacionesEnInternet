@@ -16,7 +16,9 @@
           <div class="card-body">
             <h5 class="card-title">{{misTv.original_name}}</h5>
             <p class="card-text">Idioma: {{misTv.original_language}}</p>
-            <a href="#" class="btn btn-primary">Ver mas</a>
+            <input type="hidden" #IdTvshow value={{misTv.id}}>
+
+            <button (click)="clicVerMas(IdTvshow.value)"  class="btn btn-primary">Ver mas</button>
           </div>
         </div>
 

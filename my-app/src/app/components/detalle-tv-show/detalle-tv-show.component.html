@@ -1,9 +1,32 @@
 <div class="container mt-4 ">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="text-primary text-center" >Detalle de la Pelicula</h2>
+            <h2 class="text-warning text-center" >Detalle de la Pelicula</h2>
         </div>
     </div>
+    <div class="row mt-2">
+        <div class="col-md-6 offset-md-4">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src={{OImages.base_url}}{{OImages.backdrop_sizes[0]}}{{Detalletv.poster_path}} class="card-img-top" width="50%" alt="Imagen 1">
+                            
+                            
+                    </div>
+                    <div class="col-md-7 p-3">
+                        <h5 class="card-title">{{Detalletv.original_name}}</h5>
+                                <p class="card-text">Idioma: {{Detalletv.original_language}}</p>
+                                <p style="font-size: 13px;">{{Detalletv.overview}}</p>
+                    </div>
+                </div>
+                
+                  
+                
+            </div>
+        </div>
+    </div>
+  
+ 
     <!--
     <div *ngFor="let misTv of respuestv " class="col-md-3">
         <h5 class="card-title">{{misTv.original_name}}</h5>
