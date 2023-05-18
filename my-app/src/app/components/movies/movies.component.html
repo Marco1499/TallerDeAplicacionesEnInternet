@@ -17,8 +17,10 @@
         
             </div>
             <div class="col-md-5 text-light">
+                <input type="hidden" #IdMovie value={{movie.id}}>
                 <a href="#" class="text-warning"><h5 >{{movie.title}}</h5></a>
-                <p style="text-align: justify; font-size: 13px,;">{{movie.overview}}</p>
+                <p style="text-align: justify; font-size: 13px !important;">{{movie.overview}}</p>
+                <button (click)="clicVerMas(IdMovie.value)" class="btn btn-success"> Ver mas</button>
             </div>
             
         </div>

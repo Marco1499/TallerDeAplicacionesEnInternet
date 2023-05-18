@@ -47,7 +47,6 @@ export class TvshowComponent implements OnInit {
     clicVerMas(id:string)
     {
       this.router.navigate(['DetalleTvshow/',id]);
-      /*console.log('er');
-      alert('er');*/
+     
     }
 }

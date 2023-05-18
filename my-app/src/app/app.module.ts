@@ -9,6 +9,7 @@ import { TopNavBarComponent } from './components/top-nav-bar/top-nav-bar.compone
 import { TvshowComponent } from './components/tvshow/tvshow.component';
 import { HomeComponent } from './components/home/home.component';
 import { DetalleTvShowComponent } from './components/detalle-tv-show/detalle-tv-show.component';
+import { DetalleMoviesComponent } from './components/detalle-movies/detalle-movies.component';
 
 
 
@@ -19,7 +20,8 @@ import { DetalleTvShowComponent } from './components/detalle-tv-show/detalle-tv-
     TopNavBarComponent,
     TvshowComponent,
     HomeComponent,
-    DetalleTvShowComponent
+    DetalleTvShowComponent,
+    DetalleMoviesComponent
   ],
   imports: [
     BrowserModule,
