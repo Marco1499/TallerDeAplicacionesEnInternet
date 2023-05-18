@@ -7,6 +7,8 @@ import { MoviesComponent } from './components/movies/movies.component';
 import { MovieService } from './services/movie.service';
 import { TopNavBarComponent } from './components/top-nav-bar/top-nav-bar.component';
 import { TvshowComponent } from './components/tvshow/tvshow.component';
+import { HomeComponent } from './components/home/home.component';
+
 
 
 @NgModule({
@@ -14,7 +16,8 @@ import { TvshowComponent } from './components/tvshow/tvshow.component';
     AppComponent,
     MoviesComponent,
     TopNavBarComponent,
-    TvshowComponent
+    TvshowComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -22,6 +25,7 @@ import { TvshowComponent } from './components/tvshow/tvshow.component';
     HttpClientModule
   ],
   providers: [MovieService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }
