@@ -16,15 +16,16 @@ export class MoviesComponent implements OnInit {
     constructor(private movieServicio:MovieService)
     {
       this.MoviesResult=new MoviePlayingNow;
-this.OMovies=new Array<MovieRes>;
+      this.OMovies=new Array<MovieRes>;
       this.ConfigurationRes=new Configuration;
-this.OImages=new Images;
+      this.OImages=new Images;
     }
   ngOnInit(): void 
   {
     this.GetConfigutration();
     this.GetPlayingNowMovies();
   }
+
    GetPlayingNowMovies()
   {
     
@@ -36,6 +37,7 @@ this.OImages=new Images;
     );
    
   }
+
   GetConfigutration()
   {
     this.movieServicio.getConfiguration().subscribe
